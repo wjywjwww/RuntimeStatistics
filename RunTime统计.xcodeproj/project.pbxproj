@@ -14,6 +14,12 @@
 		1B6F8DE71E665F16007BDE36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6F8DE51E665F16007BDE36 /* LaunchScreen.storyboard */; };
 		1B6F8DF21E665F16007BDE36 /* RunTime__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F8DF11E665F16007BDE36 /* RunTime__Tests.swift */; };
 		1B6F8DFD1E665F16007BDE36 /* RunTime__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F8DFC1E665F16007BDE36 /* RunTime__UITests.swift */; };
+		1B6F8E0B1E665F32007BDE36 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F8E0A1E665F32007BDE36 /* OneViewController.swift */; };
+		1B6F8E0D1E665F3D007BDE36 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F8E0C1E665F3D007BDE36 /* TwoViewController.swift */; };
+		1B6F8E0F1E665F4B007BDE36 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F8E0E1E665F4B007BDE36 /* ThirdViewController.swift */; };
+		1B6F8E111E669A15007BDE36 /* SwiftRunTimeTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F8E101E669A15007BDE36 /* SwiftRunTimeTool.swift */; };
+		1B6F8E131E669A9E007BDE36 /* ChangeUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F8E121E669A9E007BDE36 /* ChangeUIViewController.swift */; };
+		1B6F8E151E66B473007BDE36 /* ViewControllerIDList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B6F8E141E66B473007BDE36 /* ViewControllerIDList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		1B6F8DF81E665F16007BDE36 /* RunTime统计UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RunTime统计UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B6F8DFC1E665F16007BDE36 /* RunTime__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunTime__UITests.swift; sourceTree = "<group>"; };
 		1B6F8DFE1E665F16007BDE36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B6F8E0A1E665F32007BDE36 /* OneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		1B6F8E0C1E665F3D007BDE36 /* TwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+		1B6F8E0E1E665F4B007BDE36 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		1B6F8E101E669A15007BDE36 /* SwiftRunTimeTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftRunTimeTool.swift; sourceTree = "<group>"; };
+		1B6F8E121E669A9E007BDE36 /* ChangeUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeUIViewController.swift; sourceTree = "<group>"; };
+		1B6F8E141E66B473007BDE36 /* ViewControllerIDList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ViewControllerIDList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,12 @@
 			children = (
 				1B6F8DDC1E665F16007BDE36 /* AppDelegate.swift */,
 				1B6F8DDE1E665F16007BDE36 /* ViewController.swift */,
+				1B6F8E0A1E665F32007BDE36 /* OneViewController.swift */,
+				1B6F8E0C1E665F3D007BDE36 /* TwoViewController.swift */,
+				1B6F8E0E1E665F4B007BDE36 /* ThirdViewController.swift */,
+				1B6F8E101E669A15007BDE36 /* SwiftRunTimeTool.swift */,
+				1B6F8E121E669A9E007BDE36 /* ChangeUIViewController.swift */,
+				1B6F8E141E66B473007BDE36 /* ViewControllerIDList.plist */,
 				1B6F8DE01E665F16007BDE36 /* Main.storyboard */,
 				1B6F8DE31E665F16007BDE36 /* Assets.xcassets */,
 				1B6F8DE51E665F16007BDE36 /* LaunchScreen.storyboard */,
@@ -235,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B6F8E151E66B473007BDE36 /* ViewControllerIDList.plist in Resources */,
 				1B6F8DE71E665F16007BDE36 /* LaunchScreen.storyboard in Resources */,
 				1B6F8DE41E665F16007BDE36 /* Assets.xcassets in Resources */,
 				1B6F8DE21E665F16007BDE36 /* Main.storyboard in Resources */,
@@ -262,8 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B6F8E0B1E665F32007BDE36 /* OneViewController.swift in Sources */,
 				1B6F8DDF1E665F16007BDE36 /* ViewController.swift in Sources */,
+				1B6F8E131E669A9E007BDE36 /* ChangeUIViewController.swift in Sources */,
+				1B6F8E111E669A15007BDE36 /* SwiftRunTimeTool.swift in Sources */,
+				1B6F8E0F1E665F4B007BDE36 /* ThirdViewController.swift in Sources */,
 				1B6F8DDD1E665F16007BDE36 /* AppDelegate.swift in Sources */,
+				1B6F8E0D1E665F3D007BDE36 /* TwoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +439,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PD6H97QKA5;
 				INFOPLIST_FILE = "RunTime统计/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.besttone.RunTime--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,6 +453,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PD6H97QKA5;
 				INFOPLIST_FILE = "RunTime统计/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.besttone.RunTime--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,6 +538,7 @@
 				1B6F8E031E665F16007BDE36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B6F8E041E665F16007BDE36 /* Build configuration list for PBXNativeTarget "RunTime统计Tests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +547,7 @@
 				1B6F8E061E665F16007BDE36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B6F8E071E665F16007BDE36 /* Build configuration list for PBXNativeTarget "RunTime统计UITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +556,7 @@
 				1B6F8E091E665F16007BDE36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
